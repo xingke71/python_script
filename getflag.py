@@ -29,7 +29,6 @@ def main(x):
     # url1 = url+'.'+"abc.efg.com" 
 
     q.put(url1,block=True, timeout=None)
-    ip_d=q.get()
     try:
         response = requests.post(url1,payload,timeout=5)
         if response:
