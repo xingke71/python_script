@@ -36,7 +36,7 @@ def mysqlConn(line):
         return
 
 def main():
-    file = open('G:/python_jioben/try/ip.txt','r')
+    file = open('C:/ip.txt','r')
     for line in file.readlines():
         line = line.strip('\n')
         print(line)
